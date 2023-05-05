@@ -124,13 +124,13 @@
         let timer;
         let isSliderMoving = false;
  
-        bandSlide.style.marginLeft = -40 * (countLittleSlide * currentImageIndex) + "px"; // Устанавливаем текущий слайд.
-        dots[currentImageIndex-1].classList.add("active"); // Уст. текущий dot
+        bandSlide.style.marginLeft = -40 * (countLittleSlide * currentImageIndex) + "px";
+        dots[currentImageIndex-1].classList.add("active");
  
         showPrevBtn.addEventListener("click", onShowPrevBtnClick);
         showNextBtn.addEventListener("click", onShowNextBtnClick);
  
-        Array.from(dots).forEach((el, i) => el.setAttribute("data-key", i+1)); // Устанавлием аттрибуты (ключи)
+        Array.from(dots).forEach((el, i) => el.setAttribute("data-key", i+1));
  
         dots[0].parentElement.addEventListener("click", (e) => {
             if (!e.target.classList.contains("dot") || e.target.classList.contains("active") || isSliderMoving) return false;
@@ -147,42 +147,41 @@
         // ---------------  [ FUNCTIONS ] ----------------------------//
  
         function onShowPrevBtnClick() {
-            if (isSliderMoving) return false; // Если уже слайдер запущен 
-            currentImageIndex--; // меняет индекс - ОБЯЗАТЕЛЬНО
+            if (isSliderMoving) return false;
+            currentImageIndex--;
             sliderMove("left");
         }
  
         function onShowNextBtnClick() {
-            if (isSliderMoving) return false; // Если уже слайдер запущен 
+            if (isSliderMoving) return false;
             currentImageIndex++;
             sliderMove("right");
         }
  
         function sliderMove(pos) {
-            isSliderMoving = true; // Слайдер запущен
+            isSliderMoving = true;
             pos = pos === "left" ? -1 : 1;
             timer = setInterval(function() {
                 countLittleSlide = countLittleSlide + pos;
                 bandSlide.style.marginLeft = -40 * countLittleSlide + "px";
  
                 if (countLittleSlide !== (20 * currentImageIndex)) return false;
-                clearInterval(timer); // Останавливаем таймер..
-                isLastOrFirst(); // Проверяем на последний слайд или первый
-                isSliderMoving = false; // Разрешаем клик
+                clearInterval(timer);
+                isLastOrFirst();
+                isSliderMoving = false;
                 //  --------------[ DOTS ] ------------- //
-                Array.from(dots).find(d => d.classList.contains("active")).classList.remove('active'); // Ищем элемент с active
-                dots[currentImageIndex-1].classList.add("active"); // Устанавливаем класс active
+                Array.from(dots).find(d => d.classList.contains("active")).classList.remove('active');
+                dots[currentImageIndex-1].classList.add("active"); 
             }, 35);
         }
  
         function isLastOrFirst() {
-            if (currentImageIndex <= 0) { // Если первая картинка и жмем на лево .
+            if (currentImageIndex <= 0) { 
                 countLittleSlide = 20 * (bandSlideImages.length - 2);
                 currentImageIndex = bandSlideImages.length - 2;
                 bandSlide.style.marginLeft = -40 * countLittleSlide + "px";
             }
-            if (currentImageIndex >= bandSlideImages.length - 1) { // Если последняя картинка и жмем на право .
-                // Устанавливаем дефолтные настройки
+            if (currentImageIndex >= bandSlideImages.length - 1) {
                 countLittleSlide = 20;
                 currentImageIndex = 1;
                 bandSlide.style.marginLeft = -40 * countLittleSlide + "px";
