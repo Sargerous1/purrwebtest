@@ -1,0 +1,961 @@
+@media screen and (max-width: 1440px){
+    .main .qrnightlife .in {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .main .qrnightlife-bgall_text{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .main .qrnightlife-bgall_phones{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media screen and (max-width: 1400px){
+    .main .partnerour-bot_img { 
+        width: 100%;
+        height: 1070px;
+        background-image: url(img/phoneofmission.svg);
+        order: 1;
+        max-width: 700px;
+    }
+    .main .partnerour-bot_text {
+        margin: 100px auto 50px;
+        position: relative;
+        order: 2;
+    }
+    .main .partnerour-bot {
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 1296px){
+    .main .qrnightlife-bgall {
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .main .qrnightlife-bgall_text {
+        max-width: 420px;
+        margin-right: 35px;
+        width: 100%;
+        margin-left: 35px;
+        margin-top: 27%;
+    }
+    .main .qrnightlife-bgall_phones {
+        margin-left: 0px;
+        justify-content: space-around;
+        max-width: 1000px;
+        width: 100%;
+        margin-top: 55px;
+        height: auto;
+    }
+    .main .qrnightlife-bgall_phones img:nth-child(2) {
+        margin-top: 0;
+    }
+    .main .notab {
+        margin-top: 70px;
+    }
+}
+@media screen and (max-width: 1285px){
+    .main .shotscanner {
+        min-height: 1060px;
+        background-size: 100%;
+        height: auto;
+    }
+    .main .shotscanner-shell{
+        flex-wrap: wrap;
+        margin-top: 0px;
+    }
+    .main .shotscanner-shell_text p {
+        max-width: 416px;
+    }
+    .main .shotscanner-shell_text {
+        order: 1;
+        margin: 42% auto 63px;
+        max-width: 416px;
+    }
+    .main .shotscanner-shell_img {
+        max-width: 931px;
+        width: 100%;
+        justify-content: space-around;
+        margin-left: 0px;
+        order: 2;
+    }
+}
+
+@media screen and (max-width: 1205px){
+    .main .tools-graphs .graph4 {
+        left: calc(45% - 100px);
+    }
+    .main .tools-graphs .graph6 {
+        left: calc(20% - 100px);
+    }
+    .main .tools-text {
+        margin-right: 0px;
+        margin-bottom: 85px;
+    }
+    .main .tools-graphs .graphwithtext {
+        bottom: -60px;
+    }
+    .main .tools .in {
+        flex-wrap: wrap;
+    }
+    .main .tools {
+        margin-top: 15%;
+    }
+    .main .partnerour-bot_img {
+        order: 2;
+        margin: 0 auto;
+    }
+    .main .partnerour-bot_text {
+        order: 1;
+    }
+}
+@media screen and (max-width: 1160px){
+    .header-top {
+        margin-left: 45px;
+        justify-content: space-between;
+    }
+    .header-top .login {
+        margin-left: 10px;
+        margin-right: 25px;
+    }
+    .header-bot {
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 1088px){
+
+}
+@media screen and (max-width: 1042px){
+    .header-center .rightshell {
+        position: absolute;
+        right: -349px;
+    }
+    .main .morenotab-content {
+        max-width: 859px;
+        width: 100%;
+        margin: 376px auto 200px;
+        height: auto;
+        background-size: 100% 100%;
+    }
+    .main .morenotab-content img {
+        margin: 0;
+        width: 86%;
+        padding: 23px 50px;
+    }
+    .header-center .rightshell img {
+        max-width: 520px;
+        position: absolute;
+        height: 748px;
+        top: -84px;
+    }
+    .header-center .leftshell h1 {
+        font-size: 55px;
+        line-height: 63px;
+    }
+    .header .in::after {
+        width: 400.63px;
+        height: 550.03px;
+        transform: rotate(0deg);
+        top: 97px;
+        right: 5px;
+    }
+    .main .qrnightlife-bgall {
+        height: auto;
+        background: linear-gradient(179.83deg,#000 -3.1%,rgba(0,0,0,0) 56.76%,#000 83.92%),url(img/marcela.jpg) 50% -10% no-repeat;
+    }
+    .main .qrnightlife .in::before {
+        display: none;
+    }
+    .main .notab {
+        background-size: 234px;
+    }
+}
+@media screen and (max-width: 940px){
+    .header .cookies {
+        display: none;
+    }  
+    .header-center {
+        padding-left: 50px;
+    }
+    .header-center .leftshell h1 {
+        margin-left: 0;
+    }
+    .main .notab-text h2 {
+        font-size: 42px;
+        line-height: 51px;
+        max-width: 530px;
+        position: relative;
+        z-index: 1;
+        br{
+            display: none;
+        }
+    }
+    .main .notab-text p {
+        font-size: 16px;
+        line-height: 24px;
+        position: relative;
+        z-index: 1;
+    }
+    .main .notab .in {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .main .notab-phone {
+        order:2;
+    }
+    .main .notab-text {
+        justify-content: space-between;
+        margin: 9px 17px 73px;
+        order: 1;
+        flex-wrap: wrap;
+        max-width: 550px;
+    }
+    .main .notab {
+        background-size: 215px!important;
+        background: url(img/NOTAB1.svg) 0 48.5% no-repeat,url(img/NOTAB2.svg) 100% 48.5% no-repeat,url(img/NOTAB3.svg) 0 77.9% no-repeat,url(img/NOTAB4.svg) 100% 74.3% no-repeat;
+    }
+    .main .notab .in {
+        padding-bottom: 120px;
+    }
+    .main .notab-phone_scan {
+        width: 155px;
+        right: -133px;
+        top: auto;
+        bottom: -67px;
+        &::after{
+            background: url(img/Arrowadapt.svg) 0% 0% no-repeat;
+            width: 44px;
+            height: 102px;
+            top: -133px;
+            right: 45px;
+        }
+    }
+}
+@media screen and (max-width: 876px){
+    .header-bot {
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .header-bot_heading {
+        margin-bottom: 15px;
+        max-width: 860px;
+        width: 100%;
+        text-align: center;
+    }
+    .header-bot_buttons {
+        margin-top: 15px;
+    }
+    .main .partnerour-top {
+        flex-wrap: wrap;
+    }
+    .main .partnerour-top_email {
+        margin-right: 0px;
+    }
+    .main .partnerour-top_login {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .main .partnerour-top_login p {
+        margin-top: 39px;
+    }
+    .main .partnerour-top_login a {
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width: 840px){
+    .main .feedback-form form div:nth-child(3) {
+        flex-wrap: wrap;
+    }
+    .main .feedback-form form div:nth-child(3) input {
+        max-width: 815px;
+    }
+    .header-center .leftshell .textandlight {
+        margin-left: 0;
+    }
+    .header-center {
+        padding-left: 15px;
+    }
+    .header-top {
+        margin-left: 10px;
+    }
+    .header-center .leftshell h1 {
+        font-size: 44px;
+        line-height: 53px;
+    }
+    .header-center .leftshell .textandlight p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .main .strangephone-text {
+        justify-content: center;
+    }
+    .main .strangephone-content {
+        max-width: 940px;
+        background: url(img/strangephone.png) 50% 0 no-repeat;
+        background-size: 100%;
+    }
+}
+@media screen and (min-width: 769px){
+    
+}
+@media screen and (max-width: 768px){
+    .main .strangephone-content {
+        margin: 150px auto 0px;
+    }
+    .main .morenotab {
+        display: none;
+    }
+    .main .strangephone-content_textbox2 {
+        max-width: 276px;
+        width: 100%;
+        top: -163px;
+        left: 4%;
+    }
+    .main .strangephone-content_textbox4 {
+        top: 331px;
+        left: 13.6%;
+    }
+    .main .strangephone-content_textbox3 {
+        bottom: -570px;
+        right: -62.4%;
+    }
+    .main .qrnightlife-bgall_phones {
+        background: url(img/ash.jpg) 100% -3.5% no-repeat;
+        margin-top: 210px;
+        padding-top: 57%;
+        position: relative;
+        flex-wrap: wrap;
+        background-size: 100%;
+        img{
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+        img:nth-child(2){
+            margin-top: 50px;
+        }
+        &::before {
+            content: "";
+            display: block;
+            top: calc(25% - 227px);
+            background-image: url(img/Nightlife.svg);
+            left: 18px;
+            z-index: 2;
+            width: 98px;
+            height: 45px;
+            position: absolute;
+            background-size: 100% 100%;
+        }
+    }
+    .main .qrnightlife-bgall_text {
+        margin-top: 36%;
+    }
+    .main .tools-graphs .graphwithtext {
+        position: absolute;
+        width: 294px;
+        height: 60px;
+        right: 14px;
+        bottom: 0;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .main .tools-graphs .graphwithtext div .text {
+        line-height: 8px;
+        font-size: 6.64163px;
+    }
+    .main .tools-graphs .graphwithtext div .numbers {
+        font-size: 14.0887px;
+        line-height: 17px;
+    }
+    .main .tools-graphs .graphwithtext div {
+        width: 60px;
+        padding-top: 20px;
+    }
+    .main .tools-graphs .graph5 {
+        right: 0px;
+        top: -45px;
+        width: 85.62px;
+        height: 90.56px;
+    }
+    .main .tools-graphs .graph4 {
+        width: 90.95px;
+        height: 55.18px;
+        right: 80px;
+        left: auto;
+        top: -10px;
+    }
+    .main .tools-graphs .graph1 {
+        top: 6px;
+        left: 36px;
+        width: 109.43px;
+        height: 21.28px;
+    }
+    .main .tools-graphs .graph6 {
+        width: 90.95px;
+        height: 55.18px;
+        top: 49px;
+        left: 102px;
+    }
+    .main .tools-graphs .graph3 {
+        width: 149.22px;
+        height: 97.36px;
+        left: 289px;
+        top: 37px;
+    }
+    .main .tools-graphs .graph2 {
+        top: 82px;
+        width: 144.57px;
+        height: 86px;
+        right: auto;
+        left: -57px;
+    }
+    .main .tools-graphs div{
+        img{
+            width: 100%;
+        }
+    }
+    .main .tools-graphs {
+        height: 224px;
+    }
+    .main .tools-graphs .graphwithtext {
+        bottom: auto;
+        top: 136px;
+        right: -99px;
+    }
+}
+@media screen and (max-width: 756px){
+    
+}
+@media screen and (max-width: 700px){
+    .main .partnerour-bot_img {
+        width: 100%;
+        height: 144vw;
+        background-size: 100% 100%;
+    }
+    .header-center .leftshell .textandlight::before {
+        display: none;
+    }
+    .header-center .leftshell .textandlight .lightblock {
+        background: rgba(96, 92, 234, 0.5);
+        filter: blur(50px);
+        width: 100px;
+        height: 100px;
+        left: -33px;
+        top: -21px;
+    }
+    .header-center .leftshell .textandlight {
+        padding-left: 0;
+        padding-top: 30px;
+    }
+    .header-center .leftshell .textandlight p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .header-center .leftshell h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+}
+@media screen and (max-width: 695px){
+    .main .shotscanner-shell_img {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        img:nth-child(1){
+            margin-bottom: 55px;
+        }
+    }
+}
+@media screen and (max-width: 626px){
+    .main .feedback-text h2 {
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .main .feedback-download {
+        margin: 70px auto 0px;
+    }
+    .footer .in::before {
+        left: -77px;
+        bottom: -41px;
+        width: 219px;
+        height: 216px;
+    }
+    .footer-text_right a {
+        margin-bottom: 14px;
+    }
+    .main .feedback .in::after {
+        width: 336px;
+        height: 341px;
+        top: 1023px;
+        right: -55.48%;
+    }
+    .footer-text_right {
+        max-width: 350px;
+        order: 1;
+        text-align: center;
+        margin-bottom: 45px;
+    }
+    .footer-text_left {
+        max-width: 350px;
+        order: 2;
+        text-align: center;
+    }
+    .footer{
+        padding-bottom: 24px;
+        padding-top: 54px;
+    }
+    .footer-text {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-text_left .withlink {
+        margin-bottom: 9px;
+        br{
+            display: none;
+        }
+    }
+    .footer-text_left .logo {
+        margin: 0 auto 16px;
+    }
+    .main .feedback {
+        margin-top: 50px;
+    }
+    .main .strangephone-content_textbox1 {
+        max-width: 210px;
+    }
+    .main .strangephone-content_textbox2 {
+        max-width: 217px
+    }
+    .main .strangephone-content_textbox1 p, .main .strangephone-content_textbox2 p, .main .strangephone-content_textbox3 p, .main .strangephone-content_textbox4 p {
+        font-size: 17px;
+        line-height: 22px;
+    }
+    .main .strangephone-text {
+        justify-content: flex-start;
+    }
+    .main .strangephone-text_shell h2 {
+        font-size: 38px;
+        line-height: 46px;
+    }
+    .main .strangephone-text_shell {
+        margin-right: 0px;
+    }
+    .main .strangephone-content {
+        height: 765px;
+    }
+    .main .strangephone-content_textbox4 {
+        top: 218px;
+        left: 9.6%;
+    }
+    .main .strangephone-content_textbox3 {
+        bottom: -434px;
+        right: -51.4%;
+    }
+    .main .notab-phone {
+        max-width: 250px;
+        &>img{
+            width: 100%;
+        }
+    }
+    .header-center .leftshell{
+        max-width: 295px;
+    }
+    .header-center .rightshell img {
+        max-width: 451px;
+        position: absolute;
+        height: 629px;
+        top: -84px;
+        left: 0px;
+    }
+    .header-center .rightshell {
+        width: 512px;
+    }
+    .header-center .rightshell {
+        right: -262px;
+    }
+}
+@media screen and (max-width: 605px){
+   .main .feedback-download_btns {
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .main .feedback-download_btns .appstore {
+        max-width: 185px;
+        height: 60px;
+        background: url(img/appstoreadapt.svg) no-repeat;
+        margin-bottom: 24px;
+        background-size: 100% 100%;
+    }
+    .main .feedback-download_btns .gplay {
+        max-width: 185px;
+        height: 60px;
+        background: url(img/gplayadapt.svg) no-repeat;
+        background-size: 100% 100%;
+    }
+}
+@media screen and (max-width: 532px){
+    .main .strangephone-content_textbox1 {
+        top: 94px;
+    }
+    .main .strangephone-content_textbox3 {
+        bottom: -336px;
+    }
+    .main .strangephone-content_textbox4 {
+        top: 140px;
+        left: 1.6%;
+    }
+    .main .notab-phone {
+        max-width: 200px;
+    }
+    .main .notab-phone_scan {
+        right: -74px;
+        bottom: -64px;
+    }
+    .main .notab-phone_scan::after {
+        top: -120px;
+        right: 0px;
+    }
+    .header-center .leftshell {
+        max-width: 258px;
+        padding-top: 47px;
+    }
+    .header-center .leftshell .textandlight {
+        margin-top: 15px;
+        padding-top: 10px;
+    }
+    .main .tools-text h2 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .main .tools-text p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .main .notab .in::before {
+        width: 350px;
+        height: 300px;
+        left: calc(50% - 175px);
+        bottom: 157px;
+    }
+}
+@media screen and (max-width: 494px){
+    .main .feedback {
+        margin-top: 0px;
+    }
+    .main .feedback-text h2 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .main .feedback-text p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+@media screen and (max-width: 450px){
+    .main .feedback-form input, .main .feedback-form textarea {
+        line-height: 22px;
+        font-size: 16px;
+        &::placeholder{
+            line-height: 22px;
+            font-size: 16px;
+        }
+    }
+    .main .feedback-text p {
+        br{
+            display: none;
+        }
+    }
+    .main .strangephone-content_textbox1 p, .main .strangephone-content_textbox2 p, .main .strangephone-content_textbox3 p, .main .strangephone-content_textbox4 p {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .main .strangephone-content_textbox2 {
+        max-width: 165px;
+        top: -122px;
+        p{
+            padding: 13px 14px 12px 15px;
+        }
+    }
+    .main .strangephone-content_textbox1 {
+        max-width: 172px;
+        p{
+            padding: 15px 17px 15px 18px;
+        }
+    }
+    .main .strangephone-content_textbox4 {
+        max-width: 107px;
+        p{
+            padding: 14px 15px 13px 15px;
+        }
+    }
+    .main .strangephone-content_textbox3 {
+        max-width: 122px;
+        p{
+            padding: 13px 18px 13px 19px;
+        }
+    }
+    .main .strangephone-text_shell h2 {
+        font-size: 24px;
+        line-height: 29px;
+        max-width: 220px;
+    }
+    .main .strangephone-text_shell p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .main .strangephone-text_shell {
+        max-width: 373px;
+    }
+    .main .notab {
+        min-height: 830px;
+    }
+    .main .strangephone {
+        margin-top: 10px;
+    }
+    .main .qrnightlife-bgall_text div {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .main .qrnightlife-bgall {
+        background: linear-gradient(179.83deg,#000 -3.1%,rgba(0,0,0,0) 22.76%,#000 33.92%),url(img/marcela.jpg) 50% -10% no-repeat;
+        background-size: 100%;
+    }
+    .main .qrnightlife-bgall_text {
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 21%;
+    }
+    .main .qrnightlife-bgall_text div .appstore{
+        margin-bottom: 24px;
+        background-image: url(img/appstoreadapt.svg);
+    }
+    .main .qrnightlife-bgall_text div .gplay{
+        background-image: url(img/gplayadapt.svg);
+    }
+    .main .qrnightlife-bgall_text div .appstore,.main .qrnightlife-bgall_text div .gplay {
+        max-width: 185px;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 185px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: block;
+        height: 60px;
+    }
+    .main .qrnightlife-bgall_phones{
+        margin-top: 70px;
+    }
+    .main .qrnightlife-bgall_phones img:nth-child(2) {
+        height: auto;
+    }
+    .main .qrnightlife-bgall_text h2 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .main .qrnightlife-bgall_text p {
+        font-size: 16px;
+        line-height: 22px;
+        max-width: 350px;
+    }
+    .main .qrnightlife-bgall_phones img {
+        margin-right: 0px;
+        margin-left: 0px;
+        max-width: 281px;
+    }
+    .main .tools-graphs .graph3 {
+        display: none;
+    }
+    .main .shotscanner-shell_text {
+        margin: 56% auto 70px;
+    }
+    .main .shotscanner-shell_img img {
+        max-width: 287px;
+    }
+    .main .shotscanner-shell_text p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .main .shotscanner-shell_text h2 {
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 24px;
+    }
+    .main .partnerour-bot_text::before {
+        right: 251px;
+        top: -8px;
+    }
+    .main .partnerour-bot_text h2 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .main .partnerour-bot_text{
+        p{
+            font-size: 16px;
+            line-height: 22px;
+        }
+    }
+    .header-center .leftshell {
+        max-width: 240px;
+        padding-top: 75px;
+    }
+    .header-top {
+        padding-top: 40px;
+        margin-left: 0;
+    }
+    .header-top .login {
+        margin-right: 0px;
+        background-image: none;
+        margin-top: 11px;
+        padding-top: 0px;
+        padding-right: 0px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .header-top .login::after {
+        width: 38px;
+        right: -1px;
+        bottom: 1px;
+    }
+    .header-top .logo {
+        width: 111px;
+        height: 52px;
+        background-size: 47%;
+    }
+    .header .in::after {
+        width: 363.63px;
+        height: 431.03px;
+        top: 141px;
+        right: -86px;
+    }
+    .header-hide{
+        display: none;
+    }
+    .header-center {
+        padding-left: 0px;
+        min-height: 392px;
+    }
+    .header-bot_heading {
+        font-size: 24px;
+        line-height: 29px;
+        z-index: 1;
+    }
+    .header-center .leftshell h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .header-center .rightshell {
+        background: url($url+"/headermob.svg") 0% 0% no-repeat;
+        width: 174px;
+        height: 460.99px;
+        right: -16px;
+        img{
+            display: none;
+        }
+    }
+    .header-bot_buttons .appstore, .header-bot_buttons .gplay {
+        max-width: 185px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 60px;
+        margin: 0px 10px;
+    }
+    .header-bot_buttons{
+        flex-wrap: wrap;
+    }
+    .header-bot_buttons .gplay {
+        margin-top: 24px;
+        background: url($url+"/gplayadapt.svg") 0% 0% no-repeat;
+        background-size: 100% 100%;
+        width: 186px;
+        max-width: 186px;
+        height: 61px;
+    }
+    .main .partnerour-top_email p,.main .partnerour-top_login p {
+        margin-top: 39px;
+        margin-left: 33px;
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .main .partnerour-top_email a, .main .partnerour-top_login a{
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 40px;
+        margin-left: 33px;
+    }
+    .main .feedback-form {
+        margin: 38px auto 25px;
+    }
+}
+@media screen and (max-width: 425px){
+    .main .strangephone-content {
+        height: 461px;
+    }
+    .main .feedback {
+        margin-top: 141px;
+    }
+}
+@media screen and (max-width: 406px){
+    
+}
+@media screen and (max-width: 375px){
+    .main .strangephone-content_textbox1 {
+        top: 23px;
+        right: -49.4%;
+    }
+    .main .notab-phone {
+        max-width: 182px;
+    }
+    .main .notab-text h2 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .main .notab-text p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .main .notab .in::before {
+        width: 300px;
+        height: 300px;
+        left: calc(50% - 150px);
+    }
+    .main .notab {
+        background-size: 159px!important;
+        margin-top: 0px;
+        background: url(img/NOTAB1.svg) 0 42.5% no-repeat,url(img/NOTAB2.svg) 100% 42.5% no-repeat,url(img/NOTAB3.svg) 0 58.9% no-repeat,url(img/NOTAB4.svg) 100% 56.3% no-repeat;
+    }
+    .main .notab .in {
+        padding-top: 121px;
+    }
+    .main .notab-phone_scan p {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .main .strangephone-content_textbox2 {
+        left: 11%;
+    }
+    .main .strangephone-content_textbox4 {
+        top: 145px;
+        left: 8.6%;
+    }
+    .main .strangephone-content_textbox3 {
+        bottom: -282px;
+        right: -65.4%;
+    }
+}
+@media screen and (max-width: 320px){
+    
+}
+/////////////BASE ADAPTIVE/////////////////
+@media screen and (max-width: 1440px){    
+    .in{
+        width: 100%!important;
+        padding-left: 15px;
+        padding-right: 15px;
+        box-sizing: border-box;
+    }
+}   
+//////////////////////

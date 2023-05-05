@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('./fonts/NotoSans-Bold.woff2') format('woff2'),
+        url('./fonts/NotoSans-Bold.woff') format('woff'),
+        url('./fonts/NotoSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Regular.woff2') format('woff2'),
+        url('./fonts/Roboto-Regular.woff') format('woff'),
+        url('./fonts/Roboto-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('./fonts/Montserrat-Bold.woff') format('woff'),
+        url('./fonts/Montserrat-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('./fonts/AvenirLTStd-Roman.woff2') format('woff2'),
+        url('./fonts/AvenirLTStd-Roman.woff') format('woff'),
+        url('./fonts/AvenirLTStd-Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: local('Noto Sans'),
+        url('./fonts/NotoSans.woff2') format('woff2'),
+        url('./fonts/NotoSans.woff') format('woff'),
+        url('./fonts/NotoSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+$url: './img';
+
+$ff: 'Noto Sans';
+$ff2: 'Roboto';
+$ff3: 'Montserrat';
+$ff4: 'Avenir';
+
+$main-width: 1440px;
+
+.in{
+    width: $main-width;
+    position: relative;
+    margin: 0 auto;
+    padding-left: 0px;
+    padding-right: 0px;
+}
